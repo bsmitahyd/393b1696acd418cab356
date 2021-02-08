@@ -1,8 +1,8 @@
 import { View } from 'native-base';
 import React from 'react';
-import { ScrollView,StyleSheet} from 'react-native';
+import { ScrollView,StyleSheet,Text} from 'react-native';
 
-const DisplayPost =()=>{
+const DisplayPost =({route})=>{
     const{data}=route.params;
     return(
         <View style={{flex:1}}> 
